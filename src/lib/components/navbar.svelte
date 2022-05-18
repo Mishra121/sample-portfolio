@@ -1,3 +1,7 @@
+<script>
+    import ThemeSelect from './theme-select.svelte'
+</script>
+
 <div
   class="navbar mb-16 shadow-lg bg-neutral text-neutral-content sticky top-0 z-10"
 >
@@ -34,6 +38,9 @@
       <a class="btn btn-ghost btn-sm rounded-btn" href="/about"
         >About</a
       >
+      <div class="px-4">
+        <ThemeSelect />
+      </div>
     </div>
   </div>
 </div>
